@@ -102,6 +102,15 @@ find src/main/java -name "*.java" | xargs javac -d out/classes
 # Run the application
 java -cp out/classes flc.Main
 ```
+
+**With Maven:**
+
+```bash
+mvn compile
+mvn package
+java -jar target/flc-booking-system.jar
+```
+
 ---
 
 ## Usage
@@ -267,3 +276,4 @@ Main            — CLI; menus, input loops, output formatting
 
 - **Java 11**
 - **JUnit 4** — unit testing
+- **Maven** — build and dependency management
