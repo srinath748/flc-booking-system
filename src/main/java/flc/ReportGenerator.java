@@ -21,6 +21,7 @@ import java.util.stream.Collectors;
  * Design: static utility class (no instance state needed) — Single Responsibility
  * Principle: report generation is separated from system logic in FLCSystem.
  */
+// Generates monthly lesson report and champion exercise report based on attendance and income
 public class ReportGenerator {
 
     private ReportGenerator() { /* utility class — not instantiated */ }
