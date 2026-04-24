@@ -182,7 +182,7 @@ public class Main {
         if (newLesson == null) return;
         system.changeBooking(booking, newLesson);
     }
-
+    // Attend lesson functionality records attendance, review text, and rating
     //  Functionality 3: Attend a lesson
     
     private static void attendLesson(Member member) {
