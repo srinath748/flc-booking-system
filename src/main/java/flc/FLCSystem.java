@@ -144,7 +144,7 @@ public class FLCSystem {
     private String nextBookingId() {
         return String.format("B%04d", bookingCounter++);
     }
-
+    // Booking functionality with validation (capacity + duplicate prevention)
     //  Functionality 1: Book a lesson
     
     /**
