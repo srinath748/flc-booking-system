@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static org.junit.Assert.*;
-
+// JUnit test cases for validating booking, cancellation, attendance, and constraints
 /**
  * JUnit 4 test suite for the FLC Booking System.
  *
