@@ -11,7 +11,7 @@ import java.util.List;
  * callers receive defensive copies via getBookings().
  */
 public class Member {
-
+ 
     private final String memberId;
     private final String name;
     private final List<Booking> bookings;
